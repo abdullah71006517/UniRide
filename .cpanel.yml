@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ponnobi1/a.ponnobicihtra.com/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
